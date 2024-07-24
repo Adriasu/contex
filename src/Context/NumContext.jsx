@@ -1,4 +1,3 @@
-// ./context.jsx
 import React, { createContext, useState } from "react";
 
 export const NumContext = createContext(null);
