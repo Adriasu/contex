@@ -1,12 +1,8 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { NumContext } from "../Context/NumContext";
 
 const InputNum = () => {
   const { setNumberInput } = useContext(NumContext);
-
-  // useEffect(() => {
-  //   setNumberInput(35);
-  // });
 
   function numberRandom(min, max) {
     const numberShow = Math.floor(Math.random() * (max - min) + min)
